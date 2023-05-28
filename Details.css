@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Nobel;
+    src: url(./Nobel.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: Alexis;
+    src: url(./alexisv3cond.otf);
+    font-weight: 100;
+}
+*{
+    font-family: Nobel;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height: 75px;
+    z-index: 100;
+    margin-bottom:10px;
+}
+body{
+    margin: 0;
+}
+.ContainerMain{
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+.Details{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+    font-size: 20px;
+}
+#Eli{
+    display: flex;
+    justify-content: center;
+}

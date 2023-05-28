@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Nobel;
+    src: url(./Nobel.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: Alexis;
+    src: url(./alexisv3cond.otf);
+    font-weight: 100;
+}
+.navbar{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height: 75px;
+    z-index: 100;
+    margin-bottom:10px;
+}
+.content{
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+label{
+    font-size: 25px;
+}
+body{
+    margin: 0;
+}
+*{
+    font-family: Nobel;
+}
+#City{
+    height: 25px;
+    width: 300px;
+    border: 1px solid rgb(187, 239, 222);
+    font-size: 20px;
+}
+select{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border: 1px solid rgb(187, 239, 222);
+    background-color: transparent;
+}
+select option {
+    margin: 40px;
+    background-color: transparent;
+}
+#Date{
+    height: 40px;
+    width: 300px;
+    font-size:  20px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(187, 239, 222);
+}
+.submit{
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid rgb(187, 239, 222);
+    font-size: 20px;
+}

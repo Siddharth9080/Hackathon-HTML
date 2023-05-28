@@ -1,0 +1,84 @@
+.navbar{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    height: 75px;
+    z-index: 100;
+    margin-bottom:10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: absolute;
+    top: 75px;
+    display: flex;
+    width: 88vw;
+    height: 600px;
+    padding: 1vw;
+}
+.TextBox{
+    margin-left: 30px;
+}
+*{
+    font-family:Nobel;
+}
+@font-face {
+    font-family: Nobel;
+    src: url(./Nobel.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: Alexis;
+    src: url(./alexisv3cond.otf);
+    font-weight: 100;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 9px;
+    margin-left: 20px;
+    text-align:unset;
+}
+h1{
+    font-size: 60px;
+    margin: 3px;
+    margin-top: 30px;
+    margin-left:16px;
+    margin-bottom: 0px;
+}
+.year{
+    font-size: 30px;
+    margin-bottom: 9px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.BookButton{
+    height: 75px;
+    width: 200px;
+    background-color: transparent;
+    border:2px solid rgb(187, 239, 222);
+    margin: 19px;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s;
+    color: rgb(75, 35, 35);
+}
+.BookButton:hover{
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+}
+@media (max-width:800px) {
+    .content{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .TextBox{
+        margin-left: 0;
+    }
+
+}
